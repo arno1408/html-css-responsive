@@ -1,0 +1,53 @@
+.main-box {
+  font-family: Roboto, Arial;
+}
+
+.thumbnail-img {
+  width: 100%;
+}
+
+.left-content {
+  margin-right: 10px;
+}
+
+.profile-img {
+  width: 100%;
+  border-radius: 50px;
+}
+
+.lower-div {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.right-content {
+  margin-top: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.thumbnail-heading {
+  font-weight: 500;
+  margin-bottom: 15px;
+  line-height: 23px;
+}
+
+.author-name,
+.views {
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+}
+
+.views {
+  margin-top: 5px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}

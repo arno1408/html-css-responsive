@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding-top: 90px;
+  padding-left: 90px;
+  padding-right: 24px;
+}
+
+.header {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  left: 0;
+  top: 0;
+  right: 0;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  z-index: 100;
+}
+.start-content {
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+
+.hamburger-menu {
+  width: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.youtube-logo {
+  width: 88px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.middle-content {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  justify-content: center;
+}
+
+.input-box {
+  width: 0;
+  flex: 1;
+  height: 37px;
+  border: 1px solid rgb(199, 199, 199);
+  padding-left: 10px;
+  font-size: 16px;
+  border-radius: 2px;
+}
+
+.input-box::placeholder {
+  font-size: 16px;
+}
+
+.search-btn {
+  width: 60px;
+  height: 41px;
+  border: 1px solid rgb(199, 199, 199);
+  margin-left: -1px;
+  margin-right: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+}
+
+.search-btn img {
+  height: 25px;
+}
+
+.voice-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.voice-btn img {
+  height: 24px;
+}
+
+.end-content {
+  width: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.upload {
+  width: 25px;
+  cursor: pointer;
+}
+
+.youtube-apps {
+  width: 25px;
+  cursor: pointer;
+}
+
+.notifications {
+  width: 25px;
+  cursor: pointer;
+}
+
+.profile-pic {
+  width: 30px;
+  margin-right: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
