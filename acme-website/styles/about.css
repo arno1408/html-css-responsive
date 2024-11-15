@@ -1,0 +1,26 @@
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.dark-box {
+  padding: 20px;
+  background-color: rgb(53, 66, 74);
+  color: white;
+  line-height: 24px;
+}
+
+.about-left-content h4,
+.about-left-content p {
+  margin-bottom: 20px;
+  line-height: 24px;
+}
+
+.about-right-content {
+  margin-left: 40px;
+}
+
+.about-right-content h4 {
+  margin-bottom: 20px;
+}

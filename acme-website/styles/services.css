@@ -1,0 +1,48 @@
+.services-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.service-left h4 {
+  margin-bottom: 30px;
+  width: 55%;
+}
+
+.service-box {
+  padding: 40px;
+  background-color: rgb(230, 230, 230);
+  margin-bottom: 10px;
+  border: 1px solid rgb(204, 204, 204);
+  line-height: 24px;
+}
+
+/* .service-box p:nth-child(1) {
+  margin-bottom: 20px;
+} */
+
+.service-box p {
+  margin-bottom: 20px;
+}
+
+.service-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 40px;
+}
+
+.service-right button {
+  background-color: rgb(232, 73, 29);
+  height: 35px;
+  color: white;
+  border: none;
+  width: 60px;
+}
+
+.service-right input,
+.service-right textarea {
+  height: 35px;
+  width: 100%;
+}
