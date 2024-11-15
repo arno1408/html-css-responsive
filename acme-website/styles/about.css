@@ -24,3 +24,15 @@
 .about-right-content h4 {
   margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .about-right-content {
+    margin-left: 0;
+  }
+}

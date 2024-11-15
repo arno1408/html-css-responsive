@@ -4,9 +4,12 @@
   align-items: start;
 }
 
+.service-left {
+  width: 55%;
+}
+
 .service-left h4 {
   margin-bottom: 30px;
-  width: 55%;
 }
 
 .service-box {
@@ -45,4 +48,25 @@
 .service-right textarea {
   height: 35px;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .services-container {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-left {
+    width: 100%;
+  }
+
+  .service-right {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .service-right button {
+    width: 100%;
+  }
 }
